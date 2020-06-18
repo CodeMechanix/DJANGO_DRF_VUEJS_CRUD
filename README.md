@@ -4,7 +4,7 @@
 
 ## Instructions: 
 
-* git clone git@github.com:CodeMechanix/DJANGO_DRF_VUEJS_CRUD.git
+* git clone  
 * cd DJANGO_DRF_VUEJS_CRUD/
 * virtualenv venv
 * source venv/Scripts/activate
