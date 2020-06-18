@@ -4,11 +4,11 @@
 
 ## Instructions: 
 
-* git clone 
-* cd crud-app-vuejs-django/
+* git clone git@github.com:CodeMechanix/DJANGO_DRF_VUEJS_CRUD.git
+* cd DJANGO_DRF_VUEJS_CRUD/
 * virtualenv venv
 * source venv/Scripts/activate
 * pip install -r requirements.txt
-* cd DJANGO_DRF_VUEJS_CRUD
+* cd myproject
 * python manage.py migrate
 * python manage.py runserver
