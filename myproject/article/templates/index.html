@@ -54,12 +54,12 @@
                         <form v-on:submit.prevent="addArticle()">
                             <div class="modal-body">
                                 <div class="form-group">
-                                    <label for="article_heading">Article Heading</label>
+                                    <label for="article_heading">Article Writer</label>
                                     <input
                                             type="text"
                                             class="form-control"
                                             id="article_heading"
-                                            placeholder="Enter Article Heading"
+                                            placeholder="Enter Article Writer"
                                             v-model="newArticle.article_heading"
                                             required="required">
                                 </div>
@@ -99,12 +99,12 @@
                         <form v-on:submit.prevent="updateArticle()">
                             <div class="modal-body">
                                 <div class="form-group">
-                                    <label for="article_heading">Article Heading</label>
+                                    <label for="article_heading">Article Writer</label>
                                     <input
                                             type="text"
                                             class="form-control"
                                             id="article_heading"
-                                            placeholder="Enter Article Heading"
+                                            placeholder="Enter Article Writer"
                                             v-model="currentArticle.article_heading"
                                             required="required">
                                 </div>
